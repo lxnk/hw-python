@@ -1,9 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
 
 setup(
     name='hw-python',
     version='0.1.1',
-    packages=['pylloworld.py'],
+    package_dir = {"": "src"},
+    # packages=['pylloworld'],
     url='https://github.com/lxnk/hw-python',
     license='MIT',
     author='OK',
