@@ -14,7 +14,7 @@ setup(
     python_requires = ">=3.9",
     entry_points={  # Optional
         "console_scripts": [
-            "hello-world=pylloworld:print_hi",
+            "pyllo-world=pylloworld:print_hi",
         ],
     }
 )
